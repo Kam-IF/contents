@@ -1,146 +1,126 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-<!-- ※1．ウィンドウサイズをデバイスの幅に揃え、スマートフォンで見た際に縮小拡大はできないようにする。表示倍率の最大値を設定する。 -->
-<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
-<link rel="icon" href="favicon.ico">
-<link rel="apple-touch-icon" href="apple-touch-icon-180x180.png" sizes="180x180">
-<title>Android application [Watch Metronom]</title>
-<meta name="description" content="This is a metronom app for Apple Watch." />
-<meta name="keywords" content="Metronom,Tempo,メトロノーム,テンポ" />
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <title>Top | KAMKAM Apps(studydev)</title>
+          <meta name="description" content="KAMKAM's Published Apps.(studydev)">
+          <meta name="keywords" content="App,iOS,KAM" />
+          <link rel="icon" href="favicon.ico">
+          <link rel="apple-touch-icon" href="apple-touch-icon-180x180.png" sizes="180x180">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MMNCK9H');</script>
-<!-- End Google Tag Manager -->
-<!-- ※2．メディアクエリの設定の入ったデフォルトのCSSを読み込む。 -->
-<link rel="stylesheet" type="text/css" href="styles/layout.css" />
-
-<!-- ※3．IE6～8に対応するrespond.jsを入れる。 -->
-<!--[if It IE 9]>
-<script src="js/respond.js"></script>
-<![endif]-->
+     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+     })(window,document,'script','dataLayer','GTM-MMNCK9H');</script>
+     <!-- End Google Tag Manager -->
+<!-- スタイルシートはここから -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/queries.css">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5309485435511985"
      crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="page-top">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMNCK9H"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!-- header -->
-<div id="header">
-
-<!--header_top -->
-<div id="header_top" class="clearfix">
-<div id="logogroup">
-<h1><img src="images/header_rogo.png" height="45" alt="Watch Metronom App" /></h1>
-<p>Watch Metronom</p>
-</div><!--/logogroup -->
-
-<ul id="subnav" class="clearfix">
-<!-- <li class="sitemap"><a href="#">サイトマップ</a></li> -->
-<!-- <li class="rss"><a href="#">RSSフィード</a></li> -->
-</ul>
-
-</div>
-<!--/header_top -->
-
-<ul id="nav" class="clearfix">
-<!-- ※4．PCの際に表示するグローバルナビに表示・非表示を切り替えるclassをつける。 -->
-<li class="pc"><a href="./index.html"><img src="images/nav_home.gif" width="159" height="32" alt="HOME" /></a></li>
-<li class="pc"><a href="./news.html"><img src="images/nav_news.gif" width="160" height="32" alt="NEWS" /></a></li>
-
-<!-- ※4．タブレットとスマートフォンの際に表示するグローバルナビに表示・非表示を切り替えるclassをつける。 -->
-<li class="nonpc"><a href="./index.html"><img src="images/nav_home2.gif" width="128" height="38" alt="HOME" /></a></li>
-<li class="nonpc"><a href="./news.html"><img src="images/nav_news2.gif" width="128" height="38" alt="NEWS" /></a></li>
-</ul>
-</div>
-<!-- /header -->
-
-<!-- contents -->
-<div id="contents" class="clearfix">
-
-<!--info -->
-<div id="info">
-<!-- event -->
-<div id="event" class="clearfix">
-<h2>App Start</h2>
-
-<div class="section clearfix">
-<h3>Launch the app.</h3>
-<img src="images/image_00.png" width="208" height="248" alt="" />
-<p>①<br/>Tap the "Watch Metronom" icon. <br/>The app will start.<br/><br/>「Watch Metronom」アイコンをタップ。<br/>アプリが起動します。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>Count up.</h3>
-<img src="images/image_1_01.png" width="208" height="248" alt="" />
-<p>②<br/>Tap the "♩sel" button. <br/>You can choose between sound and vibration.<br/><br/>「♩sel」ボタンをタップ。<br/>音と振動を選べます。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>Count up.</h3>
-<img src="images/image_1_02.png" width="208" height="248" alt="" />
-<p>③<br/>There are 12 types of sounds and vibrations in total. <br/><br/>音と振動は全部で12種類。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>Count up.</h3>
-<img src="images/image_1_01.png" width="208" height="248" alt="" />
-<p>④<br/>Tap the "△ tempo select" button. <br/>You can choose the tempo speed.<br/><br/>「△ tempo select」ボタンをタップ。<br/>テンポスピードを選べます。 </p>
-</div>
-
-
-<div class="section clearfix">
-<h3>Count up.</h3>
-<img src="images/image_1_03.png" width="208" height="248" alt="" />
-<p>⑤<br/>You can choose between 80 and 240. <br/><br/>80〜240の間から選べます。 </p>
-</div>
-     
-<div class="section clearfix">
-<h3>6 difficulties.</h3>
-<img src="images/image_1_04.png" width="208" height="248" alt="" />
-<p>⑥<br/>Start by pressing the "play" button<br/><br/>「play」ボタンでスタート。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>6 difficulties.</h3>
-<img src="images/image_1_05.png" width="208" height="248" alt="" />
-<p>⑦<br/>Stop with the "pause" button<br/><br/>「pause」ボタンでストップ。 </p>
-</div>
-
-</div>
-<!-- /event -->
-
-
-</div>
-<!--/info -->
-
-<!-- sidebar -->
-<div id="sidebar">
-<ul id="bnrarea">
-<li><a href='https://apps.apple.com/us/app/watch-metronom/id6737463733'><img src="images/AppStore-De-DownLoad.svg" width="231" alt="" /></a></li>
-</ul>
-</div>
-<!-- /sidebar --> 
-
-</div>
-<!-- /contents -->
-
-<!-- footer -->
-<div id="footer">
-<!--footer_inner -->
-<div id="footer_inner">
-<p>&copy; 2024 KAMKAM</p>
-</div>
-<!--/footer_inner -->
-</div>
-<!-- /footer -->
-
+     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+     <!-- End Google Tag Manager (noscript) -->
+     <!------------------------------------------------------------------------------------------------------------------>
+     <header>
+     </header>
+     <main>
+     <!------------------------------------------------------------------------------------------------------------------>
+     <div class="jumbotron-fluid mb-0">
+         <div class="container d-flex align-items-top">
+             <div>
+                 <h1 class="mb-0"></h1>
+                 <span>Welcome!</span>
+             </div>
+         </div>
+     </div>
+     <!------------------------------------------------------------------------------------------------------------------>
+     <section id="sec1">
+         <div class="container">
+             <h2 class="text-center">Published Apps.</h2>
+             <p class="lead text-center font-weight-normal">
+             </p>
+             
+            <div class="row">
+                 <div class="col-lg-4 col-sm-6 mb-5">
+                     <a href="./AIChat/"><div class="card">
+                         <img class="card-img-top" src="img/aichat_rogo.png" alt="aichat">
+                         <div class="card-body">
+                           <h3 class="card-title">QRCodes</h3>
+                           <p class="card-text">QRコードを作成する。</p>
+                         </div>
+                     </div></a>
+                 </div>
+                 <div class="col-lg-4 col-sm-6 mb-5">
+                     <a href="./QRCreate/"><div class="card">
+                         <img class="card-img-top" src="img/QRCreate_rogo.png" alt="QRCreate">
+                         <div class="card-body">
+                           <h3 class="card-title">QRCodes</h3>
+                           <p class="card-text">QRコードを作成する。</p>
+                         </div>
+                     </div></a>
+                 </div>
+                 <div class="col-lg-4 col-sm-6 mb-5">
+                     <a href="./QRCreate/ex/"><div class="card">
+                         <img class="card-img-top" src="img/QRCodesEX_rogo.webp" alt="QRCodesEx">
+                         <div class="card-body">
+                           <h3 class="card-title">QRCodesEx</h3>
+                           <p class="card-text">パスワード付きのQRコードを作成する。</p>
+                         </div>
+                     </div></a>
+                 </div>
+                 <div class="col-lg-4 col-sm-6 mb-5">
+                     <a href="https://app.kamkam.me/mentalmath/"><div class="card">
+                         <img class="card-img-top" src="https://app.kamkam.me/brain/img/anzan.png" alt="Anzan">
+                         <div class="card-body">
+                           <h3 class="card-title">Anzan</h3>
+                           <p class="card-text">計算問題にできるだけ早く答えよう。</p>
+                         </div>
+                     </div></a>
+                 </div>
+     <!--
+                 <div class="col-lg-4 col-sm-6 mb-5">
+                     <a href="./iWebViewer/"><div class="card">
+                         <img class="card-img-top" src="img/iWebViewer_rogo.png" alt="imhere">
+                         <div class="card-body">
+                           <h3 class="card-title">iWebViewer</h3>
+                           <p class="card-text">猫のように高速なブラウザ。</p>
+                         </div>
+                     </div></a>
+                 </div>
+     -->
+             </div><!-- .row -->
+         </div><!-- .container -->
+     </section>
+     </main>
+     <footer id="footer">
+         <div class="container py-5">
+             <div id="footer-contents" class="row mb-5">
+                 <div id="footer-news" class="col-lg-6 col-xl-4">
+                     <div class="col-lg-10 offset-lg-1">
+                         <p class="footer-ttl">NEWS</p>
+                         <ul>
+                             <li><span>2023.02.21</span>Add AIChat App page.</li>
+                             <li><span>2022.02.09</span>The page has been published.</li>
+                         </ul>
+                     </div>
+                 </div>
+             </div><!-- .row -->
+         </div><!-- .container -->
+         <div id="copyright">
+             <p class="text-center mb-0 pt-3 pb-3">&copy; 2022 KAMKAM</p>
+         </div><!-- .container-fluid -->
+     </footer>
+     <!------------------------------------------------------------------------------------------------------------------>
+     <!-- javascript はここから -->
+     <script src="js/jquery-3.3.1.slim.min.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/script.js"></script>
 </body>
 </html>
